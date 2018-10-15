@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y98"
+    android:background="#1B88EE"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/title_back"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF1B88EE"
+
+        >
+
+
+        <Button
+
+            android:layout_width="@dimen/x19"
+            android:layout_height="@dimen/y33"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:background="@drawable/all_icon_back_n" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/title_title"
+        android:layout_width="0dip"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="信息详情"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

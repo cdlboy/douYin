@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2F2F2"
+    android:orientation="vertical" >
+
+    <com.douyin.example.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.douyin.example.TitleLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFFFF"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y30"
+            android:background="#FFF2F2F2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:paddingTop="@dimen/y36"
+            android:paddingBottom="@dimen/y36" >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="软件名称：逗音物联"
+                android:textColor="#FF333333"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:paddingTop="@dimen/y36"
+            android:paddingBottom="@dimen/y36" >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="版本：1.0"
+                android:textColor="#FF333333"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <!--<View-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="1px"-->
+            <!--android:layout_marginLeft="@dimen/x30"-->
+            <!--android:layout_marginRight="@dimen/x30"-->
+            <!--android:background="#FFF0F0F0" />-->
+
+    </LinearLayout>
+
+</LinearLayout>

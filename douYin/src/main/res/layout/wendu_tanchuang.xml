@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        layout="@layout/title_tanchaung" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y66"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温度最小值："
+                android:textColor="#FF121212"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="@dimen/x117"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/wendu_zuixiao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FF121212"
+                android:background="@null"
+                android:textSize="15sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/y1"
+                    android:background="#ffd5d5d5"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y47"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温度最大值："
+                android:textColor="#FF121212"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="@dimen/x117"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/wendu_zuida"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF121212"
+                    android:background="@null"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#ffd5d5d5"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y31"
+            android:layout_marginTop="@dimen/y67"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_wendu_queding"
+                android:layout_width="@dimen/x312"
+                android:layout_height="@dimen/y64"
+                android:background="@drawable/button_queding_style"
+                android:text="确定"
+                android:textColor="#FFFFFEFE"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

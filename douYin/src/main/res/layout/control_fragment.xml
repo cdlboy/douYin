@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2F2F2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y98"
+        android:background="#1B88EE"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="控制"
+            android:textColor="#FEFEFE"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y105"
+
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/x30"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/warm"
+            android:layout_width="@dimen/x32"
+            android:layout_height="@dimen/y32"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6px"
+            android:layout_toRightOf="@id/info"
+            android:src="@drawable/exclamatory"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_tuoguan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:id="@+id/control_img_0"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/control_icon_trusteeship_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/control_img_0"
+            android:text="托管"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/tuoguan_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@drawable/control_button_style"
+            android:text="设定"
+            android:textColor="#FF1B88EE"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#FFF0F0F0" />
+
+    <RelativeLayout
+        android:id="@+id/layout_wendu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:id="@+id/control_img_1"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/control_icon_temperature_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/control_img_1"
+            android:text="@string/wendu"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/wendu_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@drawable/control_button_style"
+            android:text="设定"
+            android:textColor="#FF1B88EE"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#FFF0F0F0" />
+
+    <RelativeLayout
+        android:id="@+id/layout_weishi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:id="@+id/control_img_2"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/control_icon_eat_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/control_img_2"
+            android:text="@string/weishi"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/weishi_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@drawable/control_button_style"
+            android:text="设定"
+            android:textColor="#FF1B88EE"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30" />
+
+    <RelativeLayout
+        android:id="@+id/layout_yanqi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:id="@+id/control_img_3"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/control_icon_oxygen_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/control_img_3"
+            android:text="@string/yanqi"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/yanqi_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@drawable/control_button_style"
+            android:text="设定"
+            android:textColor="#FF1B88EE"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#FFF0F0F0" />
+
+    <RelativeLayout
+        android:id="@+id/layout_lvshui"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:id="@+id/control_img_4"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/control_icon_filter_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/control_img_4"
+            android:text="@string/lvshui"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/lvshui_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/y60"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:background="@drawable/control_button_style"
+            android:text="设定"
+            android:textColor="#FF1B88EE"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

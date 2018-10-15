@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+    <include
+        layout="@layout/title_tanchaung"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y66"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/weishi_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+
+                    <RadioButton
+                        android:id="@+id/weishi_xiao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio_button" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x12"
+                        android:text="少量"
+                        android:textColor="#FF121212"
+                        android:textSize="15sp" />
+
+
+
+
+
+                    <RadioButton
+                        android:id="@+id/weishi_zhong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x54"
+                        android:button="@drawable/radio_button" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="中量"
+                        android:textColor="#FF121212"
+                        android:layout_marginLeft="@dimen/x12"
+                        android:textSize="15sp" />
+
+
+
+
+                    <RadioButton
+                        android:id="@+id/weishi_da"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/x54"
+                        android:button="@drawable/radio_button" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="大量"
+                        android:textColor="#FF121212"
+                        android:layout_marginLeft="@dimen/x12"
+                        android:textSize="15sp" />
+
+
+
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginTop="@dimen/y49"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上次喂食时间："
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/last_weishi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y31"
+            android:layout_marginTop="@dimen/y66"
+            android:background="#ffffffff"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_weishi_queding"
+                android:layout_width="@dimen/x312"
+                android:layout_height="@dimen/y64"
+                android:layout_gravity="center"
+                android:background="@drawable/button_queding_style"
+                android:text="确定"
+                android:textColor="#FFFFFEFE"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

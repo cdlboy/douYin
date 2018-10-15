@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2F2F2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y98"
+        android:background="#1B88EE"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="我的"
+            android:textColor="#FEFEFE"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_people"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y220"
+        android:background="#ffffffff">
+
+        <ImageView
+            android:id="@+id/image_people"
+            android:layout_width="@dimen/x120"
+            android:layout_height="@dimen/y120"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x34"
+            android:layout_toRightOf="@id/image_people"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="陈栋"
+                android:textColor="#FF333333"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/name_shebei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="admin"
+                android:textColor="#FF999999"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/x14"
+            android:layout_height="@dimen/y25"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:src="@drawable/my_icon_informationenter_n" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y130"
+            android:gravity="center"
+            android:background="#ffffffff">
+
+            <ImageView
+                android:id="@+id/wifiImg"
+                android:layout_width="@dimen/x38"
+                android:layout_height="@dimen/y38"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x30"
+                android:src="@drawable/wifi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x29"
+                android:layout_toRightOf="@id/wifiImg"
+                android:text="局域网模式"
+                android:textColor="#FF333333"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="@dimen/x11"
+                android:layout_height="@dimen/y21"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x31"
+                android:src="@drawable/my_icon_enter_n" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/layout_shezhi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y130"
+            android:background="#ffffffff">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1px"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:background="#FFF0F0F0" />
+
+            <ImageView
+                android:id="@+id/setupImg"
+                android:layout_width="@dimen/x38"
+                android:layout_height="@dimen/y38"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x30"
+                android:src="@drawable/my_icon_install_n" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/x29"
+                android:layout_toRightOf="@id/setupImg"
+                android:text="设置"
+                android:textColor="#FF333333"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="@dimen/x11"
+                android:layout_height="@dimen/y21"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x31"
+                android:src="@drawable/my_icon_enter_n" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

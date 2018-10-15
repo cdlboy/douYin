@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <com.douyin.example.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.douyin.example.TitleLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y30"
+            android:background="#FFF2F2F2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y60"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/tuoguan_dayang"
+                    android:layout_width="@dimen/x41"
+                    android:layout_height="@dimen/y34"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:button="@drawable/tuoguan_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x19"
+                    android:text="打氧托管"
+                    android:textColor="#333333"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginTop="@dimen/y40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间间隔："
+                    android:textColor="#333333"
+                    android:textSize="13dp" />
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/x117"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/tuoguan_dayang_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="#FF121212"
+                        android:textSize="13dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/y1"
+                        android:background="#D5D5D5" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x18"
+                    android:text="分钟"
+                    android:textColor="#999999"
+                    android:textSize="13dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x55"
+                    android:text="每次时长："
+                    android:textColor="#333333"
+                    android:textSize="13dp" />
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/x117"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/tuoguan_dayang_long"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="#FF121212"
+                        android:textSize="13dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/y1"
+                        android:background="#ffd5d5d5" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分钟"
+                    android:textColor="#D1D1D1"
+                    android:textSize="13dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/y80"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/tuoguan_lvshui"
+                    android:layout_width="@dimen/x40"
+                    android:layout_height="@dimen/y31"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:button="@drawable/tuoguan_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x19"
+                    android:text="滤水托管"
+                    android:textColor="#333333"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginTop="@dimen/y40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间间隔："
+                    android:textColor="#333333"
+                    android:textSize="13dp" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/x117"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/tuoguan_lvshui_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="#FF121212"
+                        android:textSize="13dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/y1"
+                        android:background="#D5D5D5" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x18"
+                    android:text="分钟"
+                    android:textColor="#999999"
+                    android:textSize="13dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x55"
+                    android:text="每次时长："
+                    android:textColor="#333333"
+                    android:textSize="13dp" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/x117"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/tuoguan_lvshui_long"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="#FF121212"
+                        android:textSize="13dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/y1"
+                        android:background="#ffd5d5d5" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分钟"
+                    android:textColor="#D1D1D1"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x80"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/tuoguan_weishi"
+                    android:layout_width="@dimen/x40"
+                    android:layout_height="@dimen/y31"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:button="@drawable/tuoguan_selector" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x20"
+                    android:text="喂食托管"
+                    android:textColor="#333333"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x30"
+                android:layout_marginTop="@dimen/y40"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时间间隔："
+                    android:textColor="#333333"
+                    android:textSize="13dp" />
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/x117"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/tuoguan_weishi_time"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="#FF121212"
+                        android:textSize="13dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/y1"
+                        android:background="#D5D5D5" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x18"
+                    android:text="分钟"
+                    android:textColor="#999999"
+                    android:textSize="13dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x55"
+                    android:text="每次食量："
+                    android:textColor="#333333"
+                    android:textSize="13dp" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/y54"
+                    android:background="@drawable/linera_border"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+
+                    >
+
+
+                    <Spinner
+                        android:id="@+id/weishi_tuoguan_liang"
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="5"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:paddingBottom="0dp"
+                        android:paddingTop="0dp"
+                        android:textColor="#ff121212"
+                        android:textSize="13dp" />
+
+                    <LinearLayout
+                        android:id="@+id/spinner_tu"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center">
+
+                        <ImageView
+
+                            android:layout_width="@dimen/x23"
+                            android:layout_height="@dimen/y12"
+                            android:src="@drawable/control_icon_open_n" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/y80"
+        android:layout_marginTop="@dimen/y80"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_tuoguan_zhongzhi"
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y64"
+            android:background="@drawable/button_zhongzhi_style"
+            android:text="全部取消"
+            android:textColor="#FF1B88EE"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button_tuoguan_queding"
+            android:layout_width="@dimen/x200"
+            android:layout_height="@dimen/y64"
+            android:layout_marginLeft="@dimen/x120"
+            android:background="@drawable/button_queding_style"
+            android:text="确定"
+            android:textColor="#FFFFFEFE"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#F2F2F2"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F2F2F2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:text="注意事项："
+                android:textColor="#666666"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y28"
+                android:text="1、只有打上勾的选项才会进行其操作"
+                android:textColor="#666666"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginTop="@dimen/y19"
+                android:text="2、所有操作都会在点击确定按钮之后立即生效"
+                android:textColor="#666666"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+

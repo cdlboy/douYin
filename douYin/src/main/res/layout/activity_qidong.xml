@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/x173"
+        android:layout_height="@dimen/y197"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/x289"
+        android:layout_marginRight="@dimen/x288"
+        android:layout_marginTop="@dimen/y99"
+        android:minHeight="75dp"
+        android:minWidth="75dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/y80"
+        android:src="@drawable/qidong" />
+
+</RelativeLayout>

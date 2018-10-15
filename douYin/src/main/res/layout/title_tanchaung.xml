@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y90"
+    android:background="#FF1B88EE"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="0dp" 
+    android:layout_marginRight="0dp">
+
+    <View
+        android:layout_width="0dip"
+        android:layout_height="@dimen/y90"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/title_tanchaung_title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFFFF"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:id="@+id/title_tanchaung_back"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/y90"
+        android:layout_weight="1"
+        android:background="#FF1B88EE"
+        android:orientation="horizontal"
+        >
+
+
+    <ImageView
+
+        android:layout_width="@dimen/x24"
+        android:layout_height="@dimen/y24"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x29"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/control_popup_icon_close_n" />
+    </RelativeLayout>
+
+</LinearLayout>

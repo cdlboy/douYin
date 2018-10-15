@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2F2F2"
+    android:orientation="vertical" >
+
+    <com.douyin.example.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.douyin.example.TitleLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="13dp"
+        android:text="慢慢添加"
+        android:textColor="#000000"
+        android:textSize="23sp" />
+
+</LinearLayout>

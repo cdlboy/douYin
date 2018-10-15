@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF2F2F2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y98"
+        android:background="#1B88EE"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="数据"
+            android:textColor="#FEFEFE"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30" />
+    
+
+
+    <RelativeLayout
+        android:id="@+id/layout_tongji1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff"
+        >
+
+        <ImageView
+            android:id="@+id/tongjiImg"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/data_icon_data_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/tongjiImg"
+            android:text="实时数据"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+        
+        <ImageView
+            android:layout_width="@dimen/x11"
+            android:layout_height="@dimen/y21"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:src="@drawable/data_icon_enter_n" />
+        
+        
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff0f0f0"
+    />
+    <RelativeLayout
+        android:id="@+id/layout_tongji2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff"
+        >
+
+        <ImageView
+            android:id="@+id/tongjiImg2"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/data_icon_temperature_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/tongjiImg2"
+            android:text="各时段温度折线图"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="@dimen/x11"
+            android:layout_height="@dimen/y21"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:src="@drawable/data_icon_enter_n" />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y30" />
+    <RelativeLayout
+        android:id="@+id/layout_tongji3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff"
+        >
+
+        <ImageView
+            android:id="@+id/tongjiImg3"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/data_icon_temperature_base_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/tongjiImg3"
+            android:text="各时段温度基础值"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="@dimen/x11"
+            android:layout_height="@dimen/y21"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:src="@drawable/data_icon_enter_n" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff0f0f0"
+        />
+    <RelativeLayout
+        android:id="@+id/layout_tongji4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y130"
+        android:background="#ffffffff"
+        >
+
+        <ImageView
+            android:id="@+id/tongjiImg4"
+            android:layout_width="@dimen/x46"
+            android:layout_height="@dimen/y46"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:src="@drawable/data_icon_task_n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x23"
+            android:layout_toRightOf="@id/tongjiImg4"
+            android:text="任务操作统计"
+            android:textColor="#FF333333"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="@dimen/x11"
+            android:layout_height="@dimen/y21"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x30"
+            android:src="@drawable/data_icon_enter_n" />
+
+
+    </RelativeLayout>
+
+
+
+    
+
+</LinearLayout>
